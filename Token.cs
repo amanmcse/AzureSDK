@@ -13,8 +13,8 @@ namespace repeat
             string clientID = "78f3563a-207c-4238-b203-c6fd06cdf1f3";
             string tenantID = "4452048a-63be-4bff-81f7-a3d4824c995d";
             //string redirectURI = "http://localhost";
-            string username = "globaladmin@amansicorp.onmicrosoft.com";
-            System.Security.SecureString password = new NetworkCredential("", "Monitoring@1").SecurePassword;
+            string username = "username@amansicorp.onmicrosoft.com";
+            System.Security.SecureString password = new NetworkCredential("", "*********").SecurePassword;
             string[] scopes = {"User.Read"};
 
             IPublicClientApplication app = PublicClientApplicationBuilder.Create(clientID)
